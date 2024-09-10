@@ -6,6 +6,7 @@ import urllib.parse
 import json
 import os
 import logging
+from openai import OpenAI
 
 # Define the addon id and get the addon settings
 ADDON_ID = 'script.mediachat'
